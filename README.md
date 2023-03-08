@@ -16,7 +16,13 @@ Start the process by viewing the web page at a small window size to simulate wha
   1. With the webpage open in Chrome, right-click > Inspect. 
   2. In the DevTools window, click on the Toggle Device button (in top left-hand corner).
   3. In the browser window, select iPhone SE from the Dimensions drop down menu.
-  4. Make all HTML and CSS changes necessary to make the page look like the example below:<br>
+  4. Add Make all HTML and CSS changes:
+      - Center the image below the header and add a little top margin.
+      - Make the styling of the first paragrph more important.
+      - Style the links inside the articles like buttons.
+      - Style the "Back to top" links below each article.
+      - Center the disclaimer in the footer and make its image smaller.
+  When you are finsihed your page should look like the example below:<br>
   ![Image of mobile webpage](images/mobile.png)
 
 By designing for the small screen first we're using what is known as a mobile-first approach. By doing this, we create a basic design that will fit small screens and low bandwidth, and then we add advanced features or layouts as the screen grows and users switch from cell data to wi-fi. This ensures that we're designing an experience that will work for everyone. 
