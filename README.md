@@ -1,12 +1,10 @@
 # Week 9 Exercise - Media Queries
 
 ## Objectives
-You will xxxx
+You will use the provided HTML and CSS as a starting point, and add to it so that the layout looks like the provided examples and works on all screen sizes up to 1024px wide.
 
 ## Instructions
-Remember to:
-* Regularly save your files and check out what your web page looks like in a web browser.
-* Make regular commits with descriptive labels.
+Remember to make regular commits with descriptive labels.
 ### 1. Get set up
 * Clone your remote exercise repository onto your local machine.
 * Add a comment in the head element of the homepage including: the course code and your section number - your name - Week 9 Exercise. Example:
@@ -15,12 +13,13 @@ Remember to:
 ```
 ### 2. Design the page for a small screen
 Start the process by viewing the web page at a small window size to simulate what it might look like on a mobile device: 
-  1. With webpage open in Chrome, right-click > Inspect. 
-  2. In the DevTools window, click on the Toggle Device button (in top left-hand corner)
-  3. In the browser window, select iPhone SE from the Dimensions drop down menu
+  1. With the webpage open in Chrome, right-click > Inspect. 
+  2. In the DevTools window, click on the Toggle Device button (in top left-hand corner).
+  3. In the browser window, select iPhone SE from the Dimensions drop down menu.
   4. Make all HTML and CSS changes necessary to make the page look like the example below:<br>
+  <kbd>
   ![Image of mobile webpage](images/mobile.png)
-
+</kbd>
 By designing for the small screen first we're using what is known as a mobile-first approach. By doing this, we create a basic design that will fit small screens and low bandwidth, and then add advanced features or layouts as the screen grows. This ensures that we're designing an experience that will work for everyone. It also has the side effect of often helping us realize what content on our website is really important.
 
 ### 3. Introduce a new breakpoint for ipads
