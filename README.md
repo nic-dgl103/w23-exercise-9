@@ -17,13 +17,9 @@ Start the process by viewing the web page at a small window size to simulate wha
   2. In the DevTools window, click on the Toggle Device button (in top left-hand corner).
   3. In the browser window, select iPhone SE from the Dimensions drop down menu.
   4. Make all HTML and CSS changes necessary to make the page look like the example below:<br>
-
   ![Image of mobile webpage](images/mobile.png)
 
-  | ![Image of mobile webpage](images/mobile.png) |
-|-|
-
-By designing for the small screen first we're using what is known as a mobile-first approach. By doing this, we create a basic design that will fit small screens and low bandwidth, and then add advanced features or layouts as the screen grows. This ensures that we're designing an experience that will work for everyone. It also has the side effect of often helping us realize what content on our website is really important.
+By designing for the small screen first we're using what is known as a mobile-first approach. By doing this, we create a basic design that will fit small screens and low bandwidth, and then we add advanced features or layouts as the screen grows and users switch from cell data to wi-fi. This ensures that we're designing an experience that will work for everyone. 
 
 ### 3. Introduce a new breakpoint for ipads
   1. In the browser window, select iPad Air from the Dimensions drop down menu.
@@ -34,11 +30,11 @@ By designing for the small screen first we're using what is known as a mobile-fi
 
 }
 ```
-  3. Make all HTML and CSS changes necessary to make the page look like the example below:<br>
-  ![Image of ipad webpage](images/iPad.png)
+  3. Add, in the media query, all the HTML and CSS necessary to make the page look like the example below:<br>
+  ![Image of ipad webpage](images/ipad.png)
 
 ### 4. Create another breakpoint for large screens
-  1. In the browser window, select Responsive from the Dimensions drop down menu. Type 1200 in the first text field to change the width of the viewport.
+  1. In the browser window, select Responsive from the Dimensions drop down menu. Type 1024 in the first text field to change the width of the viewport.
   Note: If the computer that you are working on has a small screen and you can't see the whole viewport window then you may need to work on a lab computer (for a professional website, I would add an extra breakpoint for extra large devices at 1366 pixels).
   2. Add the following media query at the bottom of your CSS:
 ```
@@ -47,7 +43,7 @@ By designing for the small screen first we're using what is known as a mobile-fi
 
 }
 ```
-  3. Make all HTML and CSS changes necessary to make the page look like the example below:<br>
+  3. Add, in the media query, all the HTML and CSS necessary to make the page look like the example below:<br>
   ![Image of laptop webpage](images/laptop.png)
 
 ### 5. Check the layout in between the breakpoints
@@ -58,7 +54,7 @@ By designing for the small screen first we're using what is known as a mobile-fi
 
 
 ### 4. Format, organize and add comments 
-* Use the Prettier VSCode extension to format HTML and CSS code.
+* make sure that you HTML and CSS are well formatted.
 * Add organizational CSS comments and order your style rules so that your CSS is easy to read.
 * Add a few comments to explain your HTML and CSS code and highlight anything of interest.
 
