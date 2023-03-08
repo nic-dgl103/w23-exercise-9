@@ -17,9 +17,12 @@ Start the process by viewing the web page at a small window size to simulate wha
   2. In the DevTools window, click on the Toggle Device button (in top left-hand corner).
   3. In the browser window, select iPhone SE from the Dimensions drop down menu.
   4. Make all HTML and CSS changes necessary to make the page look like the example below:<br>
-  <kbd>
+
   ![Image of mobile webpage](images/mobile.png)
-</kbd>
+
+  | ![Image of mobile webpage](images/mobile.png) |
+|-|
+
 By designing for the small screen first we're using what is known as a mobile-first approach. By doing this, we create a basic design that will fit small screens and low bandwidth, and then add advanced features or layouts as the screen grows. This ensures that we're designing an experience that will work for everyone. It also has the side effect of often helping us realize what content on our website is really important.
 
 ### 3. Introduce a new breakpoint for ipads
@@ -32,7 +35,7 @@ By designing for the small screen first we're using what is known as a mobile-fi
 }
 ```
   3. Make all HTML and CSS changes necessary to make the page look like the example below:<br>
-  ![Image of mobile webpage](images/iPad.png)
+  ![Image of ipad webpage](images/iPad.png)
 
 ### 4. Create another breakpoint for large screens
   1. In the browser window, select Responsive from the Dimensions drop down menu. Type 1200 in the first text field to change the width of the viewport.
@@ -45,7 +48,7 @@ By designing for the small screen first we're using what is known as a mobile-fi
 }
 ```
   3. Make all HTML and CSS changes necessary to make the page look like the example below:<br>
-  ![Image of mobile webpage](images/laptop.png)
+  ![Image of laptop webpage](images/laptop.png)
 
 ### 5. Check the layout in between the breakpoints
   1. In the browser window, select Responsive from the Dimensions drop down menu.
